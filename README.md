@@ -61,6 +61,9 @@
          he viewed and just enroll in it. All the payment amount and other data will be fetched by the API and stored in db and so there will be no manual
          process just to be on safer side. The data will be fetched from the plan details to which the user is enrolling and so the payment amount will be
          restricted and will be unchangable for security reasons. This will ensure that all the data is correct.
+       
+       5. In customer-goals, As we don't have a payment system for this task, so i have added a check during posting data for this API. 
+          If check is true, meaning the payment has been recieved from the user.
 
 
 > **Endpoints**
